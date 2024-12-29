@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+//Import
+
+import Todos from "./Todos";
+// import UserDashboard from "./UserDashboard";
+
+// import UseEffectClenupDemo from "./UseEffectClenupDemo";
+
+// import { Counter } from "./Counter";
+// import { Greeting } from "./Greeting";
+// import { PricipleIntrestCaluclator } from "./PrincipleIntrestCaluclator";
+// import {Welcome} from "./Welcome";
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      Hii
+      {/* <Welcome />
+      <Greeting name={"raji"}  /> */}
+       {/* <Counter /> */}
+      {/* <PricipleIntrestCaluclator /> */}
+      {/* <UseEffectClenupDemo /> */}
+       {/* <UserDashboard/> */}
+       <Todos/>
     </div>
   );
 }
